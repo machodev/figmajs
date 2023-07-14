@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+header {
+  background: url(".//img/Big.png") no-repeat right center;
+}
+header .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 2500px;
+}
+header .container nav .kat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+header .container nav .kat .ul ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
+}
+header .container nav .kat .but span {
+  color: black;
+  margin-right: 20px;
+}
+header .container nav .kat .but button {
+  padding: 8px 20px;
+  background-color: #ed017f;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+header .container .ket {
+  margin: 159px 0 0 135px;
+}
+header .container .ket h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 63px;
+  line-height: 68px;
+  color: #010101;
+  max-width: 500px;
+}
+header .container .ket p {
+  margin: 23px 0 33px 0;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 380px;
+}
+header .container .ket .butt {
+  display: flex;
+  gap: 20px;
+  margin: 0 0 186px 0;
+}
+header .container .ket .butt .buutton {
+  background-color: #ed017f;
+  color: white;
+  border-radius: 10px;
+  padding: 13px 23px;
+}
+header .container .ket .butt .btn {
+  border: 1px solid #ed017f;
+  color: #ed017f;
+  border-radius: 10px;
+  padding: 13px 23px;
+  background-color: white;
+}
+section .container .cot .Creating {
+  margin: 104px 0 103px 0;
+}
+section .container .cot .Creating h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #343434;
+}
+section .container .cot .Creating p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+  max-width: 900px;
+  padding: 0 0px 0 350px;
+}
+section .container .cot .row .col-3 h3 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #363940;
+}
+section .container .cot .row .col-3 p {
+  max-width: 150px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+
+section .container .rowa {
+  margin: 78px 51px 151px 0px;
+  text-align: center;
+}
+section .container .rowa h3 {
+  margin: 0 0 99px 0;
+}
+
+section .container .ip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container .ip .at img {
+  width: 600px;
+  height: 500px;
+}
+section .container .ip .gl {
+  margin: 0 152px 0px 110px;
+}
+section .container .ip .gl h3 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #343434;
+}
+section .container .ip .gl p {
+  font-size: 16px;
+  line-height: 29px;
+  color: #676767;
+  margin: 0 0 45px 0;
+}
+section .container .ip .gl button {
+  align-items: center;
+  background-color: white;
+  border: none;
+  color: #ed017f;
+}
+section .container .ip .gl button i {
+  color: #ed017f;
+}
+
+section .container .rowa h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #343434;
+}
+section .container .rowa p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+  margin: 0 0 64px 0;
+}
+section .container .rowa .swede-carousel .swed-item {
+  align-items: center;
+}
+section .container .rowa .swede-carousel .swed-item button {
+  border: none;
+  font-size: 21px;
+  color: #363940;
+  max-width: 155px;
+  background-color: white;
+  text-align: left;
+}
+section .container .rowa .swede-carousel .swed-item i {
+  color: #ed017f;
+}
+
+section .container .cota .Creating {
+  text-align: center;
+  margin: 104px 0 103px 0;
+}
+section .container .cota .Creating h3 {
+  color: #343434;
+}
+section .container .cota .Creating p {
+  max-width: 900px;
+  padding: 0 0px 0 350px;
+}
+section .container .cota .row .col-3 h3 {
+  font-size: 40px;
+  line-height: 43px;
+  color: #343434;
+}
+section .container .cota .row .col-3 p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #676767;
+  max-width: 172px;
+}
+section .container .cota .row .col-3 .h:hover {
+  cursor: pointer;
+  color: #ed017f;
+}
+
+section .container .new {
+  margin: 100px 460px 116px 460px;
+  text-align: center;
+  align-items: center;
+}
+section .container .new h2 {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #343434;
+  border: 3px solid red;
+}
+section .container .new p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+  margin: 20px 0 34px 0;
+}
+section .container .new .inp {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  text-align: center;
+}
+section .container .new .inp input {
+  padding: 5px 147px 5px 15px;
+  border-radius: 5px;
+}
+section .container .new .inp button {
+  background-color: #ed017f;
+  color: white;
+  padding: 13px 24px;
+}
+
+footer .container .cott {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .cott .ab p {
+  max-width: 180px;
+}/*# sourceMappingURL=main.css.map */
